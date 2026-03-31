@@ -37,6 +37,7 @@ export default function Index() {
           return (
             <View>
               <Pressable
+                android_ripple={{ color: "#FFFFFF99", foreground: true }}
                 className={cn(
                   "offer-card",
                   isEven ? "flex-row-reverse" : "flex-row",
